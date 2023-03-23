@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background-color: bisque; */
+}
+html body{
+  background-color: rgb(78, 135, 116);
+}
+.app-main{
+  height: 99vh;
+  width: 45vw;
+ border: 1px solid black;
+  margin-left: 25vw;
+}
+
+

@@ -1,0 +1,162 @@
+html body{
+    background-color: rgb(232,237,243);
+
+}
+.mai{
+    height: 83vh;
+    width: 40vw;
+    /* background-color: red; */
+    position: absolute;
+    top: 15vh;
+    left: 27vw;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(89, 89, 89);
+
+}
+.gradient{
+    height: 16vh;
+    width: 40vw;
+    background-image: linear-gradient(to right, rgb(117, 94, 246) , rgb(74,69,214));
+    border-radius: 10px 10px 1px 1px;
+    padding: 1px;
+    justify-content: space-between;
+    display: flex;
+}
+.punch-btn{
+    width: 110px;
+    border-radius: 50px;
+    height: 45px;
+    background-color: rgb(55,201,119);
+    color: white;
+    font-size: 17px;
+    margin-top: 30px;
+    border: none;
+    margin-right: 20px;
+}
+.punch-btn:hover{
+    background-color:rgb(41, 166, 95) ;
+}
+.Punch-out{
+    width: 110px;
+    border-radius: 50px;
+    height: 45px;
+    background-color: rgb(255,87,119);
+    color: white;
+    font-size: 17px;
+    margin-top: 30px;
+    border: none;
+    margin-right: 20px;
+}
+.Punch-out:hover{
+    background-color:rgb(199, 66, 90) ;
+}
+.name{
+    height: 70px;
+    width: 300px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.sign-in{
+    height: 60px;
+    width: 90px;
+    background-color: red;
+    position: absolute;
+    left: 9vw;
+    top: 7vh;
+}
+
+.profile{
+    height: 11vh;
+    width: 5vw;
+    background-color:rgb(232,237,243) ;
+    margin: 17px 30px;
+    border-radius: 10px;
+}
+.navbar nav{
+    display: flex;
+    justify-content: space-around; 
+    /* background-color: red;   */
+}
+/* navbar */
+.navbar nav li{
+   
+   font-size: 16px;
+    border: 1px  solid black;
+    padding: 0px 74.4px;
+    padding-bottom: 7px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.navbar nav li button{
+    border: none;
+    background-color: rgb(252, 253, 254);
+}
+.log-main{
+    height: 53vh;
+    width: 37vw;
+    /* background-color: red; */
+    position: absolute;
+    top: 43vh;
+    left: 28vw;
+}
+.log-btn{
+    position: absolute;
+    top: 56vh;
+    left: 23vw;
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(55,201,119);
+    height: 7vh;
+    width: 10vw;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.log-btn i{
+    margin: 0;
+    color: aliceblue;
+    font-weight: 800;
+}
+.reload i{
+     color:aliceblue;
+     background-color: rgb(55,201,119);
+     padding: 4px 10px;
+     position: absolute;
+     top: 46vh;
+     left: 16.5vw;
+     border-radius: 50px;
+}
+.meter{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.time-sec nav{
+    height: 20vh;
+    width: 35vw;
+    position: absolute;
+    top: 29vh;
+    left: 1vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.time-sec nav div{
+    display: flex;
+}
+.time-sec nav div i{
+    margin: 0;
+   padding: 5px;
+   color: aliceblue;
+   /* border-radius: 50px; */
+   /* padding-bottom: 0px; */
+    display: flex;
+    margin-top: 19px;
+    margin-right: 15px;
+    font-size: 29px;
+    height: 7vh;
+    border-radius: 50px;
+}
+

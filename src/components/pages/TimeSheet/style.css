@@ -1,0 +1,53 @@
+.time-nav{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    margin-top: 2vh;
+    margin-left: 1vw;
+ 
+    width: 38vw;   
+}
+.date-picker {
+    display: flex;
+    height: 6vh;
+    margin-left: 40px;
+    }
+.date-picker input{
+    border-radius: 0px 50px 50px 0px;
+    border: 2px solid rgb(120, 118, 118);
+    font-size: 13px;
+    height: 5vh;
+    color: rgb(118, 119, 120);
+}
+.ico {
+    margin-top: 0.8vh;
+}
+.ico i{
+    width: 2vw;  
+   
+    left: 5vw;
+    font-size: 15px;
+    border: 2px solid rgb(122, 121, 121);
+    padding: 7.3px 7px;
+    border-radius: 50px 0px 0px 50px;
+
+}
+
+.nav-left{
+    font-size: 17px;
+    color: rgb(117,86,245);
+    font-weight: 600;
+    position: absolute;
+}
+.not-found {
+    margin-top: 15vh;
+
+}
+.not-found i{    
+    font-size: 90px;
+    color: rgb(124, 179, 124);
+    
+}
+.not-found h5{
+    margin-left: 15vw;
+}
